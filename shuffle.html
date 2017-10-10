@@ -1,0 +1,27 @@
+
+<html>
+	<head>
+		<title>Shuffle</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="shuffle.css" />
+		<script language="javascript" src="shuffle.js"></script>
+	</head>
+
+	<body style="text-align: center">
+		<h3>Yazzy's <strike>Marty Stepp's</strike> Shuffle Tool</h3>
+
+		Items (one per line):<br>
+		<textarea name="expectedText" id="expectedText" cols="80" rows="20" wrap="off"></textarea>
+
+		<div>
+		<button id="shufflebutton" onclick="javascript:martyRunShuffleMulti();">Shuffle Dance!!</button>
+		</div>
+
+		<div id="optionsarea">
+		<label><input type="checkbox" name="animation" id="animation" checked="checked" /> Animation</label><br />
+		<input type="checkbox" name="trimBlankLines" id="trimBlankLines" checked="checked" /> Trim blank lines</label>
+		</div>
+		<iframe id="music" width="0" height="0" src="" frameborder="0" allowfullscreen></iframe>
+
+	</body>
+</html>
