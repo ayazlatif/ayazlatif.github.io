@@ -204,16 +204,16 @@ a:hover, a:focus, a:active {
   float: right;
   height: 20%;
   width: 40%;
-  
+  padding: 10pt;
 }
 
 #UW {
-  height: 15%;
-  width: 15%;
-  padding-bottom: 10pt;
-  float: right;
+  height: 50px;
+  width: 70px;
 }
 
 #UW_container {
-  float: right;  
+  float: right; 
+  display: inline;
+  
 }
